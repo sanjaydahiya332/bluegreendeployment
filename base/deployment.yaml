@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: nginx:stable
+        image: sd171991/newproject:stable
         ports:
         - containerPort: 80
 
