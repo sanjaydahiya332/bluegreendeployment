@@ -1,1 +1,12 @@
+resources:
+  - ../../base
+
+patches:
+  - target:
+      kind: Deployment
+      name: blue-green-demo
+    patch: |-
+      - op: replace
+        path: /spec/template/spec/containers/0/image
+        value: nginx:1.21
 
