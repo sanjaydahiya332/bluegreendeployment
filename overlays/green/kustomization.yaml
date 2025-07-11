@@ -8,5 +8,5 @@ patches:
     patch: |-
       - op: replace
         path: /spec/template/spec/containers/0/image
-        value: nginx:1.25
+        value: sd171991/newproject:v2
 
