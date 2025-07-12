@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: sd171991/newproject:stable
+        image: sd171991/iciciproject:stable
         ports:
         - containerPort: 80
 
